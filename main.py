@@ -9,7 +9,8 @@ if len(sys.argv) == 1 or \
 	print('File not given or nonexistent.')
 	sys.exit()
 code = sys.argv[1]
-compiled = path_join(f'{code[:-2]}[compiled]')
+compiled = path_join(f'{code[:-2]}__COMPILED')
 if len(sys.argv) > 2:
 	compiled = path_join(sys.argv[2])
-os.system(f'gcc {code} -o {compiled} && {compiled}')
+os.system(f'gcc {code} -o {compiled}')
+os.system(f'{compiled}')
