@@ -1,4 +1,4 @@
-# REDUZINDO O COMANDO PARA EXECUTAR CÓDIGO EM C.
+# REDUZINDO O COMANDO PARA EXECUTAR CÓDIGO COMPILADO COM GCC.
 
 ## Sobre o Projeto
 
@@ -26,12 +26,12 @@ $ <meu_alias> programa.c
 Após clonar esse repositório, acesse o diretório local correspondente, acesse o seu emulador de terminal e insira o comando do tipo:
 
 ```bash
-$ python3 main.py <caminho para o arquivo em c>
+$ python3 main.py <caminho para o arquivo em C>
 ```
 
 É possível também atribuir um outro nome para o código C executável, passando o nome como segundo parametro ao rodar o programa em python:
 
 ```bash
-$ python3 main.py <caminho para o arquivo em c> <novo nome do executável>
+$ python3 main.py <caminho para o arquivo em C> <novo nome do executável>
 ```
 Após isto, é conveniente criar um alias para o comando python que invoca o módulo main.py, a fim e dar maior praticidade.
