@@ -6,7 +6,7 @@ if len(sys.argv) == 1 or \
 	print('File not given or nonexistent.')
 	sys.exit()
 code = sys.argv[1]
-compiled = f'{code[:-2]}_compiled'
+compiled = f'{code[:-2]}[compiled]'
 if len(sys.argv) > 2:
 	compiled = sys.argv[2]
-os.system(f'gcc {code} -o {compiled} && ./{compiled}')
+os.system(f'gcc {code} -o {compiled} && {compiled}')
