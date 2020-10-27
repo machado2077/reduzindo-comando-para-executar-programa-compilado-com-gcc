@@ -16,8 +16,10 @@ def main():
 	if len(sys.argv) > 2:
 		compiled = path_join(sys.argv[2])
 	os.system(f'gcc {code} -o {compiled}')
-	os.system(f'{compiled}')
-
+	if os.path.exists(path_join(compiled)):
+		os.system(f'{compiled}')
+	else:
+		print("Compilation error.")
 
 
 if __name__ == "__main__":
