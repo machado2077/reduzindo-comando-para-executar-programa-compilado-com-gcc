@@ -20,6 +20,8 @@ def main():
 		os.system(f'{compiled}')
 	else:
 		print("Compilation error.")
+	if sys.argv[-1] != '-p':
+		os.remove(compiled)
 
 
 if __name__ == "__main__":
