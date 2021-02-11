@@ -1,5 +1,5 @@
 
-# REDUZINDO O COMANDO PARA EXECUTAR CÓDIGO COMPILADO COM GCC.
+# REDUZINDO O COMANDO PARA EXECUTAR CÓDIGO C/C++ COMPILADO COM GCC.
 
   
 
@@ -7,13 +7,13 @@
 
   
 
-Esse programa consiste em facilitar o comando via terminal utilizado para compilar e executar códigos em C utilizando o compilador GCC.
+Esse programa consiste em facilitar o comando via terminal utilizado para compilar e executar códigos em C/C++ utilizando o compilador GCC.
 
   
 
 ## Por que?
 
-O programa foi concebido a partir da necessidade de facilitar o processo de execução de um programa em C. O comando em um emulador de terminal, no caso o bash, é algo do tipo:
+O programa foi concebido a partir da necessidade de facilitar o processo de execução de um programa em C/C++. O comando em um emulador de terminal, no caso o bash, é algo do tipo:
 
   
 
@@ -55,13 +55,13 @@ Após clonar esse repositório, acesse o diretório local correspondente, acesse
 
 ```bash
 
-$ python3 main.py <caminho para o arquivo em C>
+$ python3 main.py <caminho para o arquivo em C/C++>
 
 ```
 
   
 
-É possível também atribuir um outro nome para o código C executável, passando o nome como segundo parâmetro ao rodar o programa em Python:
+É possível também atribuir um outro nome para o código C/C++ executável, passando o nome como segundo parâmetro ao rodar o programa em Python:
 
   
 
