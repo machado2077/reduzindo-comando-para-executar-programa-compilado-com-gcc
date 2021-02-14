@@ -29,7 +29,7 @@ def main():
 		print("Unknown source code extension.")
 		return
 	
-	if len(sys.argv) > 3:
+	if len(sys.argv) >= 3:
 		compiled = path_join(sys.argv[2])
 	os.system(f'{driver} {file_name} -o {compiled}')
 	
